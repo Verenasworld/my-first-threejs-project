@@ -20,6 +20,7 @@ const scene = new THREE.Scene()
 //const geometry = new THREE.TorusGeometry( .7, .2, 16, 100 );
 const geometry = new THREE.SphereBufferGeometry(.5,64,64)
 
+
 // Materials
 
 const material = new THREE.MeshStandardMaterial()
@@ -30,7 +31,21 @@ material.color = new THREE.Color(0xf72ed0)
 
 // Mesh
 const sphere = new THREE.Mesh(geometry,material)
-scene.add(sphere)
+scene.add(sphere);
+//let sphereX = -10;
+//for( let i = 0; i < 15; i ++){
+    /*let sphere = new THREE.Mesh(geometry,material);
+    sphere.position.x = (Math.random() - 0.5) *10;
+    sphere.position.y = (Math.random() - 0.5) *10;
+    sphere.position.z = (Math.random() - 0.5) *10;
+    scene.add(sphere);
+    sphereX+=1;*/
+//}
+
+
+
+
+
 
 // Lights
 
@@ -155,7 +170,7 @@ const windowHalfY = window.innerHeight/ 2
 
 function updateSphere(event) {
   //  sphere.position.y = window.scrollY * .005
-    sphere.position.y = window.scrollY * .005
+    sphere.position.y = window.scrollY * -.002
 }
 window.addEventListener('scroll', updateSphere)
 

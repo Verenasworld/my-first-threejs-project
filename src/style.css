@@ -41,6 +41,11 @@ h1{
 section{
     height: 100vh;
     display: grid;
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-weight: 100;
+
 
 }
 
