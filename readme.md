@@ -1,4 +1,4 @@
-#https://verenasworld.github.io/budgetCalculator/
+#https://verenasworld.github.io/my-first-threejs-project/
 
 # Three.js Starter
 Courtesy of Bruno Simon of https://threejs-journey.xyz/
